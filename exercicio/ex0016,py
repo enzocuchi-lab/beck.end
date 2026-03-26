@@ -1,0 +1,3 @@
+km = float(input("Digite a qunatidade de km rodados: "))
+dias = int(input("Digite por quantos dias esteve o carro: "))
+print("Você rodou {}km, deve pagar {}R$, alugou o carro por {}, deve pagar {}R$" .format(km, km * 0.15, dias, dias * 60))
